@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="restful_booker.PartialUpdateBooking">
+        <methods>
+          <include name="setUp"/>
+          <include name="partialUpdate"/>
+        </methods>
+      </class> <!-- restful_booker.PartialUpdateBooking -->
+      <class name="restful_booker.CreateBooking">
+        <methods>
+          <include name="setUp"/>
+          <include name="createBooking"/>
+        </methods>
+      </class> <!-- restful_booker.CreateBooking -->
+      <class name="restful_booker.CreateToken">
+        <methods>
+          <include name="setUp"/>
+          <include name="createtoken"/>
+        </methods>
+      </class> <!-- restful_booker.CreateToken -->
+      <class name="restful_booker.DeleteBooking">
+        <methods>
+          <include name="setUp"/>
+          <include name="deleteBooking"/>
+        </methods>
+      </class> <!-- restful_booker.DeleteBooking -->
+      <class name="restful_booker.UpdateBooking">
+        <methods>
+          <include name="updateBooking"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- restful_booker.UpdateBooking -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
